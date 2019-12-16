@@ -26,7 +26,7 @@ From plugin registry:
 
 From the repo:
 
-	$ cordova plugin add https://github.com/apla/me.apla.cordova.app-preferences
+	$ cordova plugin add https://github.com/north27/me.apla.cordova.app-preferences
 
 From a local clone:
 
@@ -159,6 +159,10 @@ if it came from previous version of plugin.
 * combo
 * switch
 * textfield
+* title
+
+#### Use title like this:
+`{ "title": "I am title", "type": "title", "key": "any-key", "default": "I am default" }`
 
 ### Supported controls for Android:
 
